@@ -210,6 +210,9 @@
   controls.maxDistance = 12;
   controls.update();
 
+  window.camera = camera;
+  window.controls = controls;
+  
   const spark = new SparkRenderer({ renderer });
   scene.add(spark);
 
